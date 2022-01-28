@@ -1,0 +1,9 @@
+.inputFilter {
+  display: inline-block;
+  border: 1px solid navy;
+  margin-left: 10px;
+}
+
+.inputFilter:hover {
+  border: 1px solid rgb(126, 126, 255);
+}

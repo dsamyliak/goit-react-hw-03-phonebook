@@ -1,0 +1,16 @@
+.contactItem {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+  padding: 7px 15px;
+  width: 25vw;
+  border-radius: 5px 5px;
+  border-color: navy;
+  border-width: 1px;
+  border-style: solid;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}

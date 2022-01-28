@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+h1,
+h2 {
+  margin: 0px;
+}
+.Section {
+  display: block;
+  margin: 0 auto;
+}
+
+.headerOptions {
+  padding: 20px 0px;
+}
