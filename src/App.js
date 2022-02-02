@@ -54,7 +54,17 @@ class App extends React.Component {
     this.setState({ filter: e.currentTarget.value });
   };
 
+  componentDidMount() {
+    console.log("3 DidMount done!");
+  };
+
+  componentDidUpdate() { 
+    console.log("2 DidUpdate done");
+  };
+
   render() {
+    console.log("1 Render done!");
+
     //calculating data
     //_________________
 
