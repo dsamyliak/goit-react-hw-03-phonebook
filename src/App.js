@@ -64,7 +64,9 @@ class App extends React.Component {
     const parsedContacts = JSON.parse(contacts);
     console.log("parsedContacts = ", parsedContacts);
 
-    this.setState({ contacts: parsedContacts, });
+    if (parsedContacts) {
+      this.setState({ contacts: parsedContacts, });
+    };
 
   };
 
